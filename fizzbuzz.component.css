@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    font-family: sans-serif;
 }
 
 .container {
@@ -11,10 +12,17 @@ body {
 .item {
     display: inline-block;
     width: 2em;
-    height: 1em;
+    height: 2em;
     padding: 0.5em;
     background-color: #42A5F5;
     border-radius: 0.5em;
     border: 0.2em solid #90CAF9;
     margin: 0.5em;
+}
+.item span {
+    display: block;
+    font-size: 0.9em;
+    color: white;
+    font-weight: normal;
+    line-height: 1em;
 }
